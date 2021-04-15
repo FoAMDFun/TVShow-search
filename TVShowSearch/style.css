@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: rgb(16, 16, 48);
+    background: linear-gradient(
+        90deg,
+        rgb(16, 16, 48) 0%,
+        rgb(58, 117, 134) 65%,
+        rgb(0, 212, 255) 100%
+    );
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+    margin-top: 0.4em;
+    font-size: 2.5em;
+    color: lightblue;
+    text-shadow: 0.1em 0.1em black;
+}
+
+button,
+input {
+    height: 2.5em;
+}
+
+input {
+    width: 20%;
+}
+
+button {
+    width: 5%;
+    min-width: 50px;
+}
+#searchForm {
+    margin: 1em;
+    text-align: center;
+}
+
+#searchResults {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#searchResults > div {
+    display: inline-block;
+    width: 17%;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 0.2em;
+    margin: 0.2em;
+    box-shadow: 11px 10px 33px 5px rgba(0, 0, 0, 1);
+}
+
+#searchResults > div > img {
+    width: 95%;
+}
